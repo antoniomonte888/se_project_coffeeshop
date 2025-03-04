@@ -1,10 +1,12 @@
 .header {
+  box-sizing: border-box;
   padding: 30px 80px 40px;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 0;
 }
 
 .header__title {
@@ -29,7 +31,7 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,6 +44,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {

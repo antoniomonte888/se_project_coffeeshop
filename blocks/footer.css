@@ -17,6 +17,8 @@
 
 .footer__social-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -35,6 +37,10 @@
   align-items: center;
 }
 
+.footer__social-link:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
 .footer__social-icon {
   width: 16px;
   height: 16px;
